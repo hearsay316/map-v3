@@ -18,7 +18,6 @@ function handleClick(e){
 }
 function handleInput(e){
   setTimeout(() => {
-
     let data = e.data
     if (!data || isCompositing) {
       return
